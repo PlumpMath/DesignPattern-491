@@ -13,7 +13,6 @@ public class PersonCloneable implements Cloneable {
 
 	public PersonCloneable(List<String> data) {
 		this.setData(data);
-		// TODO Auto-generated constructor stub
 	}
 
 	private void loadData() {
@@ -23,7 +22,6 @@ public class PersonCloneable implements Cloneable {
 		this.data.add("C");
 		this.data.add("D");
 		this.data.add("E");
-
 	}
 
 	@Override
@@ -52,6 +50,7 @@ public class PersonCloneable implements Cloneable {
 		System.out.println(original.getData());
 		System.out.println(p1.getData());
 		System.out.println(p2.getData());
+		Arrays.asList(1,2,3);
 
 	}
 
